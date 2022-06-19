@@ -25,7 +25,8 @@ import Set6 from './Baju6.jpg'
 import Set7 from './Baju7.jpg'
 import Set8 from './Baju8.jpg'
 */
-
+import API from './Api';
+import axios from 'axios';
 import Navbar from './Navbar'
 import Footer from './Footer'
 
@@ -94,6 +95,7 @@ const products = [
     return (
       <div className="bg-white">
         <Navbar/>
+        <API/>
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
           <h2 className="text-2xl text-center font-extrabold tracking-tight text-gray-900">Outfits Skin</h2>
   

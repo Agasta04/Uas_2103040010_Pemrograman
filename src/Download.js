@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Logodownload from './Pubg.jpg'
 import Slide1 from './Slider1.jpg'
 
+
 function Index() {
     const [show, setShow] = useState(false);
     return (
